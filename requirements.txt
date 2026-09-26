@@ -1,0 +1,2 @@
+# Python 3.9 or newer; simulation and tests use only the standard library.
+# The notebook can run in Colab or an existing Jupyter environment.

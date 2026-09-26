@@ -1,0 +1,22 @@
+{
+  "seed": 20260926,
+  "batches": 1000,
+  "python": "3.9.6",
+  "N": 20,
+  "K": 4,
+  "credits": 100,
+  "threshold": 60,
+  "reserve": 1,
+  "welfare_weight": 1,
+  "primary_bid": "0.8*v",
+  "risk": "100*exposure*severity",
+  "distributions": "independent U[0,100] value; U[0,1] exposure and severity; random arrival",
+  "simulation_sha256": "dd5e82e5460f2c3c9e66e5785693b83f23ceb7e55e4cfca547b42f7bbf6bdb0f",
+  "outputs_sha256": {
+    "demo_allocations.csv": "daa496a67bd2857655ee6fa0111c22e5e293eff9dc5e9787491b20efd7016867",
+    "demo_inputs.csv": "2465a9a0ae968b808f214df982c80da20af585ee0b9355f43cc345dc96ad287b",
+    "primary_batches.csv": "fa36e0d0bb417142468e82997c8f9c02dc40980e3fa5462886e4f927a8f52dd7",
+    "primary_summary.csv": "f3413ad22669abe3938154328c49a32ff58302e27c6462f7eecda5fcd9e2dc9f",
+    "sensitivity.csv": "57e548bc96540d79e44a0bf580ac7e46578c9ef3ae1223dc5768deccf26acf8d"
+  }
+}

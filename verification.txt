@@ -1,0 +1,12 @@
+test_already_winner_no_allocation_change (test_simulation.MechanismTests.test_already_winner_no_allocation_change) ... ok
+test_budget_cap_and_invalid_duplicate (test_simulation.MechanismTests.test_budget_cap_and_invalid_duplicate) ... ok
+test_known_displacement_payments_and_welfare (test_simulation.MechanismTests.test_known_displacement_payments_and_welfare) ... ok
+test_no_eligible_returns_reserve (test_simulation.MechanismTests.test_no_eligible_returns_reserve) ... ok
+test_paired_invariants (test_simulation.MechanismTests.test_paired_invariants) ... ok
+test_ties_boundary_and_fcfs (test_simulation.MechanismTests.test_ties_boundary_and_fcfs) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.007s
+
+OK
+PASS: six tests; source fingerprint; five reference CSV fingerprints; 31265 CSV cells reproduced.
