@@ -18,7 +18,10 @@ python3 verify_reproduction.py
 
 The last command runs the six mechanism tests, regenerates the outputs in a temporary directory, and compares every CSV cell against the actual reference run (numeric tolerance 1e-10). It also checks the reference source fingerprint. `results/` is created by the run. `reference_outputs.zip` contains the five complete reference CSVs and `fresh_run.json`; `primary_summary.csv`, `demo_inputs.csv`, and `fresh_run.json` are also provided separately for easy inspection. The demo is batch 1, selected in advance, not a favorable batch.
 
-**Notebook:** open `PS2_comparison.ipynb` in Colab or Jupyter and run all cells. It is self-contained: it writes the same simulation and tests into a temporary folder, runs the tests and all comparisons, and displays the result. It requires no repository clone or network data. Saved cell outputs are actual executed outputs. A Colab link is available at https://colab.research.google.com/github/JianNi-220/PS2_Qianshuo_Zhenning/blob/main/PS2_comparison.ipynb . For the submitted version, replace `main` in this URL with the GitHub commit SHA shown on the repository's commit page; the proposal records that immutable revision.
+**Notebook:** open `PS2_comparison.ipynb` in Colab or Jupyter and run all cells. It is self-contained: it writes the same simulation and tests into a temporary folder, runs the tests and all comparisons, and displays the result. It requires no repository clone or network data. Saved cell outputs are actual executed outputs. A Colab link is available at:
+https://colab.research.google.com/github/dku-comsci-econ206-Autumn2026/PS2_Qianshuo_Zhenning/blob/main/PS2_comparison.ipynb
+
+The final submitted version will cite the organization-owned repository together with the exact tested commit SHA. The organization repository, rather than a personal fork, is the canonical final source.
 
 ## Parameters and interpretation
 
@@ -91,10 +94,12 @@ Monte Carlo SE describes simulation sampling uncertainty, not empirical confiden
 - `verify_reproduction.py` and `verification.txt`: clean rerun comparison and its actual record.
 - `HF_handoff.md`: shared schema and behavioral interface; no fabricated participant responses.
 
-Completed: synthetic comparison, six tests, clean rerun, notebook execution. Pending: human review, real peer play, Hugging Face URL/version, poster integration and final proposal-wide verification. See the exact GitHub commit linked in the proposal; later changes require a new pinned revision and rerun.
+Completed: synthetic comparison, six tests, clean rerun, notebook execution. Completed: synthetic comparison, six tests, clean rerun, executed notebook, Hugging Face behavioral interface, A0 poster integration, and symposium peer review.
 
 ## AI use and license
 
-OpenAI Codex assisted on September 26, 2026 with code, notebook, tests, experimental design, interpretation and Section 3 drafting. Material choices included paired inputs, fixed outside-credit value, explicit stylized bidding, parameter sensitivity, and separating mean gains from universal improvement. Codex executed the tests, the fresh run and rerun comparisons; this is not a claim that either author has already independently verified them. Authors must record their own checks and accepted/rejected suggestions, and remain responsible for the submission. No human behavioral outcomes were generated or inferred.
+OpenAI ChatGPT and Codex assisted with model clarification, code and notebook review, debugging, reproducibility checks, literature checking, and language editing. The authors independently reviewed the final assumptions, parameter choices, outputs, interpretations, and limitations and remain responsible for all claims and results.
 
-No external dataset or third-party source code is bundled. The authors have not yet selected a reuse license for their original files; public visibility alone does not confer an open-source license. Python's standard library is used; `requirements.txt` lists the runtime scope.
+No human behavioral outcomes were fabricated or inferred. Completed computational evidence, exploratory behavioral evidence, and planned future work are labeled separately.
+
+This repository includes an MIT License for the authors' original code and project files where applicable. External software and referenced sources remain under their own licenses and terms.
