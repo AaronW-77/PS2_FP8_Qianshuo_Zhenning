@@ -2,7 +2,7 @@
 
 **Qianshuo (Aaron) Wang and Zhenning Wang — COMSCI/ECON 206, Professor Luyao Zhang**
 
-Can an auction with reserved capacity for objectively high-risk research requests improve the allocation of scarce AI research capacity relative to a pure auction?
+**Can an auction with reserved capacity for objectively high-risk research requests improve the allocation of scarce AI research capacity relative to a pure auction?**
 
 This repository implements **Section 3**, using the one-batch model in Section 2. All values and risk inputs are synthetic. It is a mechanism comparison under specified bids, not a computation of Bayesian Nash equilibrium and not evidence about actual investment returns. Sections 1–5 are joint work. Planned division: Qianshuo leads the computational artifact; Zhenning leads the Hugging Face behavior artifact. Actual individual review and contributions must be recorded by the authors.
 
