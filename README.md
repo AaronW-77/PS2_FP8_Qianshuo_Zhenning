@@ -1,4 +1,4 @@
-# FP8 · Session D · PS2 computational artifact
+# FP8 · Session D · PS2 Computational Artifact
 
 **Qianshuo (Aaron) Wang and Zhenning Wang — COMSCI/ECON 206, Professor Luyao Zhang**
 
