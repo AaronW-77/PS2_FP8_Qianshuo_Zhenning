@@ -4,7 +4,7 @@
 
 **Can an auction with reserved capacity for objectively high-risk research requests improve the allocation of scarce AI research capacity relative to a pure auction?**
 
-This repository implements **Section 3**, using the one-batch model in Section 2. All values and risk inputs are synthetic. It is a mechanism comparison under specified bids, not a computation of Bayesian Nash equilibrium and not evidence about actual investment returns. Sections 1–5 are joint work. Planned division: Qianshuo leads the computational artifact; Zhenning leads the Hugging Face behavior artifact. Actual individual review and contributions must be recorded by the authors.
+This repository implements **Section 3**, using the one-batch model in Section 2. All values and risk inputs are synthetic. It is a mechanism comparison under specified bids, not a computation of Bayesian Nash equilibrium and not evidence about actual investment returns. Sections 1–5 are joint work. Qianshuo (Aaron) Wang and Zhenning Wang jointly developed the research question, mechanism comparison, welfare framework, and linked artifacts. Individual intellectual decisions, outputs, verification steps, and responsibilities are documented in the final PS2 Author Notes.
 
 ## Run and verify
 
@@ -94,7 +94,7 @@ Monte Carlo SE describes simulation sampling uncertainty, not empirical confiden
 - `verify_reproduction.py` and `verification.txt`: clean rerun comparison and its actual record.
 - `HF_handoff.md`: shared schema and behavioral interface; no fabricated participant responses.
 
-Completed: synthetic comparison, six tests, clean rerun, notebook execution. Completed: synthetic comparison, six tests, clean rerun, executed notebook, Hugging Face behavioral interface, A0 poster integration, and symposium peer review.
+Completed: synthetic comparison, six tests, clean rerun, executed notebook, Hugging Face behavioral interface, A0 poster integration, and symposium peer review.
 
 ## AI use and license
 
