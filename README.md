@@ -34,10 +34,16 @@ python3 verify_reproduction.py
 
 The last command runs the six mechanism tests, regenerates the outputs in a temporary directory, and compares every CSV cell against the actual reference run (numeric tolerance 1e-10). It also checks the reference source fingerprint. `results/` is created by the run. `reference_outputs.zip` contains the five complete reference CSVs and `fresh_run.json`; `primary_summary.csv`, `demo_inputs.csv`, and `fresh_run.json` are also provided separately for easy inspection. The demo is batch 1, selected in advance, not a favorable batch.
 
-**Notebook:** open `PS2_comparison.ipynb` in Colab or Jupyter and run all cells. It is self-contained: it writes the same simulation and tests into a temporary folder, runs the tests and all comparisons, and displays the result. It requires no repository clone or network data. Saved cell outputs are actual executed outputs. A Colab link is available at:
-https://colab.research.google.com/github/dku-comsci-econ206-Autumn2026/PS2_Qianshuo_Zhenning/blob/main/PS2_comparison.ipynb
+**Notebook:** The current runnable Colab notebook is:
+https://colab.research.google.com/drive/1I-J52wxGaAIwJK_LjtghBnXS2GxY0U2V#scrollTo=QI1TUTULTNPj
 
-The final submitted version will cite the organization-owned repository together with the exact tested commit SHA. The organization repository, rather than a personal fork, is the canonical final source.
+An archived copy of the notebook is stored in the repository as:
+`PS2_Code.ipynb`
+
+After the final merge, the canonical GitHub notebook path is:
+https://github.com/dku-comsci-econ206-Autumn2026/PS2_Qianshuo_Zhenning/blob/main/PS2_Code.ipynb
+
+The organization-owned repository, rather than a personal fork, is the canonical final source.
 
 ## Parameters and interpretation
 
