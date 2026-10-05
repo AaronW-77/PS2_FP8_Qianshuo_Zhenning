@@ -12,7 +12,7 @@ Canonical course repository:
 https://github.com/dku-comsci-econ206-Autumn2026/PS2_Qianshuo_Zhenning
 
 Notebook: 
-https://github.com/dku-comsci-econ206-Autumn2026/PS2_Qianshuo_Zhenning/blob/main/PS2_Code.ipynb
+[https://github.com/dku-comsci-econ206-Autumn2026/PS2_Qianshuo_Zhenning/blob/main/PS2_Code.ipynb](https://colab.research.google.com/drive/1I-J52wxGaAIwJK_LjtghBnXS2GxY0U2V#scrollTo=QI1TUTULTNPj)
 
 Hugging Face Space:
 https://huggingface.co/spaces/dku-comsci-econ206-2026/PS2_Qianshuo_Zhenning
