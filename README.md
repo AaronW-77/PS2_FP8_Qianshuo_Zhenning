@@ -6,6 +6,22 @@
 
 This repository implements **Section 3**, using the one-batch model in Section 2. All values and risk inputs are synthetic. It is a mechanism comparison under specified bids, not a computation of Bayesian Nash equilibrium and not evidence about actual investment returns. Sections 1–5 are joint work. Qianshuo (Aaron) Wang and Zhenning Wang jointly developed the research question, mechanism comparison, welfare framework, and linked artifacts. Individual intellectual decisions, outputs, verification steps, and responsibilities are documented in the final PS2 Author Notes.
 
+## Final release and canonical repository
+
+Canonical course repository:
+https://github.com/dku-comsci-econ206-Autumn2026/PS2_Qianshuo_Zhenning
+
+Hugging Face Space:
+https://huggingface.co/spaces/dku-comsci-econ206-2026/PS2_Qianshuo_Zhenning
+
+A0 Poster:
+https://canva.link/vlx5ljli23z7qk8
+
+Final tested commit:
+`[FINAL SHA]`
+
+
+
 ## Run and verify
 
 Python 3.9+; no third-party packages for the simulation or tests. The recorded fresh run used Python 3.9.6 on September 26, 2026.
