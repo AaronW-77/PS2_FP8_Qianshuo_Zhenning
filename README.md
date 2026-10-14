@@ -1,3 +1,5 @@
+[![PS2 project overview: allocation problem, three mechanisms, welfare framework, and synthetic simulation results](assets/project-overview.svg)](assets/project-overview.svg)
+
 # FP8 · Session D · PS2 Computational Artifact
 
 **Qianshuo (Aaron) Wang and Zhenning Wang — COMSCI/ECON 206, Professor Luyao Zhang**

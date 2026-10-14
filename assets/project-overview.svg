@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="2050" viewBox="0 0 1500 2050" role="img" aria-labelledby="title desc">
+<title id="title">Who Gets the Last Token? PS2 project overview</title>
+<desc id="desc">Twenty portfolio managers compete for four premium AI research slots. Compare FCFS, pure first-price auction, and risk reserve plus auction. Under synthetic baseline bids, hybrid increases mean welfare by 9.78 at lambda one, but improves only 43.8 percent of batches.</desc>
+<rect width="1500" height="2050" fill="#f2f5fa"/>
+<rect x="0" y="0" width="1500" height="254" rx="0" fill="#142840" stroke="none"/>
+<text x="56" y="49" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#8fdae0">FP8  /  SESSION D  /  PS2 COMPUTATIONAL ARTIFACT</text>
+<text x="54" y="111" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="white">Who Gets the Last Token?</text>
+<text x="56" y="158" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#d9e4f1">Allocating scarce AI research capacity inside an asset-management firm</text>
+<text x="56" y="209" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="white">Can a risk reserve improve firm welfare relative to a pure auction?</text>
+<rect x="54" y="277" width="44" height="38" rx="10" fill="#142840" stroke="none"/>
+<text x="65" y="305" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="white">01</text>
+<text x="112" y="305" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#142840">The allocation problem</text>
+<text x="112" y="338" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#52647a">One batch. Limited capacity. Private benefits and public risk can point to different winners.</text>
+<rect x="54" y="360" width="1392" height="233" rx="18" fill="white" stroke="none"/>
+<text x="80" y="405" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#345de0">20 PORTFOLIO MANAGERS</text>
+<text x="80" y="446" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#52647a">Each wants at most one slot.</text>
+<text x="80" y="481" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#52647a">Private research value: v ∈ [0, 100]</text>
+<text x="80" y="516" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#52647a">Internal-credit budget: 100</text>
+<text x="588" y="405" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#087f83">4 PREMIUM AI SLOTS</text>
+<rect x="588" y="430" width="44" height="51" rx="8" fill="#e1f2f2" stroke="none"/>
+<text x="603" y="463" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#087f83">1</text>
+<rect x="646" y="430" width="44" height="51" rx="8" fill="#e1f2f2" stroke="none"/>
+<text x="661" y="463" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#087f83">2</text>
+<rect x="704" y="430" width="44" height="51" rx="8" fill="#e1f2f2" stroke="none"/>
+<text x="719" y="463" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#087f83">3</text>
+<rect x="762" y="430" width="44" height="51" rx="8" fill="#e1f2f2" stroke="none"/>
+<text x="777" y="463" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#087f83">4</text>
+<text x="588" y="521" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#52647a">Allocate once, then stop.</text>
+<text x="588" y="556" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#52647a">No learning or carryover.</text>
+<text x="1000" y="405" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#a65a14">VERIFIED RISK</text>
+<text x="1000" y="446" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#52647a">r = 100 × exposure × severity</text>
+<text x="1000" y="481" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#52647a">Public, audited and frozen</text>
+<text x="1000" y="516" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#52647a">before allocation and bids.</text>
+<rect x="54" y="620" width="44" height="38" rx="10" fill="#142840" stroke="none"/>
+<text x="65" y="648" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="white">02</text>
+<text x="112" y="648" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#142840">Three mechanisms, the same batch</text>
+<text x="112" y="681" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#52647a">Hold values, risk scores and assumed bids fixed for a paired comparison.</text>
+<rect x="54" y="704" width="448" height="328" rx="18" fill="white" stroke="none"/>
+<rect x="54" y="704" width="448" height="7" rx="0" fill="#345de0" stroke="none"/>
+<text x="78" y="752" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#345de0">A</text>
+<text x="115" y="752" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#142840">First come, first served</text>
+<text x="78" y="791" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#345de0">Random arrival order</text>
+<text x="78" y="838" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#52647a">Award all 4 slots to the</text>
+<text x="78" y="872" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#52647a">first 4 arriving managers.</text>
+<text x="78" y="906" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#52647a">No payment.</text>
+<text x="78" y="977" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#345de0">Benchmark: access by arrival</text>
+<rect x="526" y="704" width="448" height="328" rx="18" fill="white" stroke="none"/>
+<rect x="526" y="704" width="448" height="7" rx="0" fill="#087f83" stroke="none"/>
+<text x="550" y="752" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#087f83">B</text>
+<text x="587" y="752" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#142840">Pure first-price auction</text>
+<text x="550" y="791" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#087f83">One sealed bid per manager</text>
+<text x="550" y="838" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#52647a">Award all 4 slots to the</text>
+<text x="550" y="872" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#52647a">highest bidders. Each winner</text>
+<text x="550" y="906" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#52647a">pays their own bid.</text>
+<text x="550" y="977" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#087f83">Baseline bid: b = 0.8v</text>
+<rect x="998" y="704" width="448" height="328" rx="18" fill="white" stroke="none"/>
+<rect x="998" y="704" width="448" height="7" rx="0" fill="#a65a14" stroke="none"/>
+<text x="1022" y="752" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#a65a14">C</text>
+<text x="1059" y="752" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#142840">Risk reserve + auction</text>
+<text x="1022" y="791" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#a65a14">Reserve first, auction second</text>
+<text x="1022" y="838" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#52647a">If r ≥ 60, the highest-risk</text>
+<text x="1022" y="872" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#52647a">eligible manager gets 1 free</text>
+<text x="1022" y="906" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#52647a">slot and exits the auction.</text>
+<text x="1022" y="977" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#a65a14">Then auction remaining slots</text>
+<rect x="54" y="1049" width="1392" height="81" rx="12" fill="#e6edf6" stroke="none"/>
+<text x="78" y="1082" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#142840">HYBRID FALLBACK</text>
+<text x="303" y="1082" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#142840">No eligible request? Auction all 4 slots. Unused reserve returns to the auction.</text>
+<text x="78" y="1113" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#52647a">All mechanisms: at most one slot per manager; exact ties go to the lower PM ID.</text>
+<rect x="54" y="1158" width="44" height="38" rx="10" fill="#142840" stroke="none"/>
+<text x="65" y="1186" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="white">03</text>
+<text x="112" y="1186" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#142840">What counts as a better allocation?</text>
+<text x="112" y="1219" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#52647a">The firm balances research value against the risk scores of the requests it serves.</text>
+<rect x="54" y="1240" width="1392" height="161" rx="18" fill="white" stroke="none"/>
+<text x="84" y="1292" font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="700" fill="#142840">W = V + λC</text>
+<text x="490" y="1280" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#52647a">V = sum of winners’ private research values</text>
+<text x="490" y="1317" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#52647a">C = sum of winners’ risk scores; λ = firm’s welfare weight</text>
+<text x="490" y="1354" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#52647a">Payments are internal transfers; they are not subtracted from W.</text>
+<text x="84" y="1374" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#52647a">Risk coverage is an index, not a measure of avoided financial loss.</text>
+<rect x="54" y="1424" width="44" height="38" rx="10" fill="#142840" stroke="none"/>
+<text x="65" y="1452" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="white">04</text>
+<text x="112" y="1452" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#142840">What the simulation finds</text>
+<text x="112" y="1485" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#52647a">1,000 independent synthetic batches  ·  seed 20260926  ·  R = 1  ·  threshold = 60  ·  λ = 1</text>
+<rect x="54" y="1507" width="1392" height="215" rx="18" fill="white" stroke="none"/>
+<rect x="54" y="1507" width="1392" height="48" rx="0" fill="#e6edf6" stroke="none"/>
+<text x="80" y="1539" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#142840">Mechanism</text>
+<text x="620" y="1539" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#142840">Value V</text>
+<text x="820" y="1539" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#142840">Coverage C</text>
+<text x="1020" y="1539" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#142840">Welfare W</text>
+<text x="1215" y="1539" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#142840">Efficiency</text>
+<text x="80" y="1600" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#142840">FCFS</text>
+<text x="620" y="1600" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#142840">199.45</text>
+<text x="820" y="1600" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#142840">100.43</text>
+<text x="1020" y="1600" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#142840">299.88</text>
+<text x="1215" y="1600" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#142840">—</text>
+<path d="M78 1616H1420" stroke="#dce3ed"/>
+<text x="80" y="1650" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#142840">Pure first-price</text>
+<text x="620" y="1650" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#142840">353.08</text>
+<text x="820" y="1650" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#142840">101.35</text>
+<text x="1020" y="1650" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#142840">454.43</text>
+<text x="1215" y="1650" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#142840">100%</text>
+<path d="M78 1666H1420" stroke="#dce3ed"/>
+<text x="80" y="1700" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#087f83">Hybrid reserve + auction</text>
+<text x="620" y="1700" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#087f83">326.26</text>
+<text x="820" y="1700" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#087f83">137.95</text>
+<text x="1020" y="1700" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#087f83">464.20</text>
+<text x="1215" y="1700" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#087f83">92.42%</text>
+<rect x="54" y="1740" width="448" height="102" rx="18" fill="#e8eefc" stroke="none"/>
+<rect x="526" y="1740" width="448" height="102" rx="18" fill="#e1f2ef" stroke="none"/>
+<rect x="998" y="1740" width="448" height="102" rx="18" fill="#fff0df" stroke="none"/>
+<text x="78" y="1782" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#345de0">−26.82</text>
+<text x="78" y="1819" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#142840">Mean private-value change</text>
+<text x="550" y="1782" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#087f83">+36.59</text>
+<text x="550" y="1819" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#142840">Mean risk-coverage change</text>
+<text x="1022" y="1782" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#a65a14">+9.78</text>
+<text x="1022" y="1819" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#142840">Mean welfare change (SE 0.89)</text>
+<rect x="54" y="1862" width="1392" height="123" rx="18" fill="#142840" stroke="none"/>
+<text x="80" y="1902" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="white">A conditional trade-off, not universal dominance.</text>
+<text x="80" y="1939" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#d9e4f1">Hybrid raises W in only 43.8% of batches. At λ = 0.5, mean ΔW = −8.52.</text>
+<text x="80" y="1971" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#b9cde0">36 sensitivity scenarios test reserve size, thresholds, value–risk alignment and bidding rules.</text>
+<text x="56" y="2023" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="400" fill="#52647a">Synthetic mechanism comparison under specified bids; not a BNE solution or evidence of actual investment returns.</text>
+</svg>
